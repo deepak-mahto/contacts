@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.app-container h2 {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.buttons button {
+  padding: 5px;
+}
+
+.button-element {
+  padding: 5px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form * {
+  font-size: 20px;
+}
